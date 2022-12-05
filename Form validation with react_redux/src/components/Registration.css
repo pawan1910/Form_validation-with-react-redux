@@ -1,0 +1,90 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: 
+    /* linear-gradient(
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+      ), */
+      url("https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  form{
+      background-color: white;
+      padding: 0px 60px;
+      border-radius: 10px;
+      margin: 50px;
+      /* width: 40%; */
+  }
+  
+  h1{
+      color: #12273e;
+      text-align: center;
+  }
+  
+  .checkinput{
+
+    color: rgb(18, 17, 18);
+  }
+
+  .skill{
+    padding-top: 10px;
+    
+  }
+
+  .file{
+    padding-top: 10px;
+  }
+  
+  button{
+      width: 100%;
+      height: 50px;
+      padding: 10px;
+      border: none;
+      background-color: #12273e;
+      color: white;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 15px;
+      margin-bottom: 30px;
+  }
+
+
+  .file{
+    position: relative;
+    height: 120px;
+    /* display: inline-flex; */
+  }
+  .file-upload{
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .hide{
+    display: none;
+  }
+  .img-size{
+     position: absolute;
+     left: 80%;
+     width: 100px;
+     height: 80px;
+     border: 1px solid #4b9bbe;
+     border-radius: 5px;
+     object-fit: contain;
+     margin: 8px 0px 0px;
+  }
+  .error-msg{
+    position: absolute;
+    color: red;
+    font-size: 13px;
+    padding: 3px;
+    bottom: 0;
+    left: 2%;
+  }
+  
